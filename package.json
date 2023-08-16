@@ -1,0 +1,18 @@
+{
+  "name": "js-basics",
+  "version": "1.0.0",
+  "description": "Nodejs learning",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "author": "Mukul Pathak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
